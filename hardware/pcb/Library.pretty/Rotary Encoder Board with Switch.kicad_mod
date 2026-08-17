@@ -1,0 +1,204 @@
+(footprint "Rotary Encoder Board with Switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -12.08 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4420fe0a-2774-4f6d-a602-75146cd79920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Rot Encoder Board"
+		(at -0.58 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ddcd5bf4-95e5-48eb-9e48-50360f6c7a13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45914c2b-688e-4bbc-ad32-f9010087b287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5 Pin Rotary Encoder Board"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "054deb94-90d1-4ad2-9306-db4ba704d793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -10.08 -7)
+		(end 8.42 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3039bf25-6134-4b5e-9987-3b88b204aa12")
+	)
+	(fp_rect
+		(start -10.08 -7)
+		(end 8.42 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "2e7fb9f9-41bc-4c80-8e40-f6570b9ed4e0")
+	)
+	(fp_text user "GND"
+		(at -5.58 -4.5 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "787d83b3-b483-4214-8090-f24f2aa368b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -3.08 -3.5 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9531b18c-9a09-413b-b946-9745853a54ad")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SW"
+		(at -0.58 -4 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84bc948c-146e-4e04-8cb1-443792a86bec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "DT"
+		(at 1.92 -4 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab5c07be-359d-42a9-8c78-0cf497348313")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CLK"
+		(at 4.42 -4.5 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "59a3c03f-87ca-4d06-9c64-bfa07a3f3d07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${Encoder}"
+		(at -0.4 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4bfcf6c4-99b6-4d9e-9bf6-5cdb53d5ee1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.08 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "c005bc5c-b8e7-4c7c-bf42-2dcc9a33f078")
+	)
+	(pad "2" thru_hole oval
+		(at -2.54 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbc0e0ca-211b-4898-a2c4-e9f6955359e0")
+	)
+	(pad "3" thru_hole oval
+		(at 0 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6284bd07-19f4-4344-83f2-33d7ce412f94")
+	)
+	(pad "4" thru_hole oval
+		(at 2.54 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2590ae82-9494-40a8-9c22-42637753082f")
+	)
+	(pad "5" thru_hole oval
+		(at 5.08 0 90)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ce6e1e5-81a5-40fb-985f-16d9d6314a83")
+	)
+	(embedded_fonts no)
+)
